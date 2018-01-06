@@ -1,4 +1,6 @@
+{{#if_eq testConfig "assert"}}
 import { mount } from 'vue-test-utils'
+{{/if_eq}}
 
 
 module.exports = function isVueInstance(expecteds){

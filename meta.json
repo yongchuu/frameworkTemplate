@@ -1,0 +1,22 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "message": "Project name"
+    },
+    "test": {
+      "type": "confirm",
+      "message": "Use test module?"
+    },
+    "testConfig": {
+      "when": "test",
+      "type": "list",
+      "message": "Pick a test module",
+      "choices": [
+        "sfmi-assert",
+        "jest"
+      ]
+    }
+  }
+}
