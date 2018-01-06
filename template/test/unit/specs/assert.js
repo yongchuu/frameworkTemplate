@@ -3,7 +3,7 @@ import { mount } from 'vue-test-utils'
 {{/if_eq}}
 
 
-var projectName = {{name}};
+var projectName = "{{name}}";
 
 module.exports = function isVueInstance(expecteds){
     const wrapper = mount(expecteds);
