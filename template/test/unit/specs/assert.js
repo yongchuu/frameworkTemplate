@@ -1,4 +1,4 @@
-{{#if_eq testConfig "assert"}}
+{{#if_eq testConfig "sfmi-assert"}}
 import { mount } from 'vue-test-utils'
 {{/if_eq}}
 
